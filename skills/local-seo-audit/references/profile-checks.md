@@ -15,7 +15,7 @@ Check the actual operating model before judging the profile:
 | Hybrid | The business receives customers at the address during stated hours and also travels or delivers. Both arrangements are real and evidenced. |
 | Practitioner, department, chain or brand | Apply the specific representation rule in G01 before recommending an edit or a new profile. |
 
-**Google guidance [G03, G01]:** service areas are listed as cities, postcodes or other areas, not a radius, up to 20. The overall area should usually stay within about two hours' drive of the base, though some businesses can justify a larger area.
+**Google guidance [G03, G01]:** service areas are set as cities, postcodes or other areas, up to 20. The overall area should usually stay within about two hours' drive of the base, though some businesses can justify a larger area.
 
 Compare the listed areas with where the business genuinely accepts work. Do not fill every slot. A service area is not a branch, and adding a town does not guarantee visibility there.
 
