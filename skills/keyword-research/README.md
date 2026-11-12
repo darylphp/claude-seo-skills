@@ -30,4 +30,4 @@ Keep the runtime folder named `keyword-research` when staging it for installatio
 
 ## Workflow provenance
 
-The method follows the Keyword, Query Family and Intent Research Playbook v1.1, sections 1 to 12, and stops at the handoff to query-to-URL planning. The runtime carries the applicable rules in its own references. Google guidance is paraphrased with source IDs and check dates in the [source register](references/source-register.md), including two Search Console features added after the playbook's last review.
+The method follows the Keyword, Query Family and Intent Research Playbook v1.1, sections 1 to 12, and stops at the handoff to query-to-URL planning. The runtime carries the applicable rules in its own references. Google guidance is paraphrased with source IDs and check dates in the [source register](references/source-register.md). The register adds Search Console's AI-computed query groups, which the playbook does not cover.
