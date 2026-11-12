@@ -16,7 +16,7 @@ Inspect the relevant pages themselves when the classification depends on their p
 | Differences between variants | Evidence for a family boundary. A shared domain alone is weak evidence. |
 | Changes across dates or markets | Volatility or context that needs a qualification |
 
-**Google guidance [K18]:** AI Overviews and AI Mode may use query fan-out, running related searches across subtopics. Outside researchers cannot see the fan-out queries for a particular search. Model-generated questions are candidates, not observed prompts or fan-out logs.
+**Google guidance [K18]:** AI Overviews and AI Mode may use query fan-out, running related searches across subtopics. **Operating method:** Google does not publish the fan-out queries behind a particular search, so treat model-generated questions as candidates, not observed prompts or fan-out logs.
 
 ## 2. Sampling and stopping
 
