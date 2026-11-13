@@ -55,3 +55,13 @@ Checked 6 November 2026.
 - The ready retest confirmed a standalone approval line and the full claim qualification and attribution in the relevant blueprint row. The same retest excluded competitor headings, keyword and entity quotas, an optimisation score, and a competitor-derived length target.
 - The source-led expert case kept specialist clearance pending and excluded invented first-person testing. Commercial examples excluded unapproved claims and preserved the supplied comparison and disclosure limits. Requests for final copy, metadata and schema produced planning instructions.
 - The sparse-input case checked the first clarification turn. The unavailable-input outcome was exercised in separate blocked cases. No multi-turn clarification replay or live installation was run. Several routing and adversarial checks reviewed the affected sections as excerpts rather than scoring the entire brief.
+
+## v0.1.0 recheck, 13 November 2026
+
+Revision `65d6bb9`. Runs used the runtime files only (`SKILL.md` and `references/`) in three separate fresh contexts, with example outputs and this rubric held back until scoring. Model: Claude Opus 5.5. These were clean-context runs, not an installed skill, so the Claude app and Claude Code installation check is still open. Inputs and full outputs are in [runs/2026-11-13](runs/2026-11-13/).
+
+- Package check: the description was 405 characters, over the 200-character limit for claude.ai uploads. It is now 180 characters. Name, folder and ZIP layout unchanged.
+- T01 pass. One status, Ready for W1. Local Service Content Writer, and all 12 sections in order. One differentiator from C02 with claim and source IDs. The C02 qualification, attribution and indoor photo condition are carried into the blueprint. C04 and C05 appear only as Do not use. `Human approval: Awaiting approval` is on its own line and section 12 states that drafting may not begin.
+- T02 pass. One status, Blocked: Return to B2. Evidence and Claims Dossier Builder. C02 is Do not use, dependent sections are Deferred, there is no writer handoff, and the return action names the service owner confirmation needed for the intake steps and photo safety limits.
+- T03 pass. One status, Blocked: Return to B1. Page Opportunity and Intent Validator. No page role, action, URL ownership, blueprint or handoff is invented. The B2 dependency for the next pass is listed.
+- All three outputs contain no em dashes.
