@@ -12,6 +12,10 @@ Example request: “Use the SEO Content Brief Skill to build one brief from the 
 
 Ready identifies the writer route. The approval field records whether drafting can begin. An unresolved page decision returns to B1. A material evidence gap returns to B2.
 
+## Testing status
+
+v0.1.0 was tested in the Claude app on 13 November 2026 with one ready case and two blocked cases. All three passed. Claude Code setup is documented in the [Claude setup note](platforms/claude.md) but has not been tested yet. See the [review record](tests/acceptance-tests.md).
+
 ## Package layout
 
 - [SKILL.md](SKILL.md) and `references/` are the shared runtime files.
