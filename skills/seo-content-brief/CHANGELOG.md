@@ -4,3 +4,4 @@
 
 - Added the standalone B3 brief workflow, claim controls, writer routing and 12-section output template.
 - Added synthetic examples, acceptance cases and separate platform setup notes.
+- Shortened the skill description to 180 characters to meet the 200-character limit for claude.ai uploads.

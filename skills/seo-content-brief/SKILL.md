@@ -1,6 +1,6 @@
 ---
 name: seo-content-brief
-description: Build or revise one evidence-led SEO content brief and writer blueprint from a validated page opportunity, approved query intent and URL boundaries, brand voice rules, and a page-specific claims dossier. Use for briefing before writing or to identify a blocking gap in a supplied brief pack. Keep keyword discovery, page selection, copywriting, final metadata, schema and publishing outside this workflow.
+description: Build one evidence-led SEO content brief from an approved page decision, query intent, URL boundaries, voice rules and claims dossier. Use before writing or to find a blocking gap.
 ---
 
 # SEO Content Brief Skill
