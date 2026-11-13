@@ -65,3 +65,14 @@ Revision `65d6bb9`. Runs used the runtime files only (`SKILL.md` and `references
 - T02 pass. One status, Blocked: Return to B2. Evidence and Claims Dossier Builder. C02 is Do not use, dependent sections are Deferred, there is no writer handoff, and the return action names the service owner confirmation needed for the intake steps and photo safety limits.
 - T03 pass. One status, Blocked: Return to B1. Page Opportunity and Intent Validator. No page role, action, URL ownership, blueprint or handoff is invented. The B2 dependency for the next pass is listed.
 - All three outputs contain no em dashes.
+
+## Claude app installation check, 13 November 2026
+
+Revision `65d6bb9`. Daryl uploaded `seo-content-brief.zip` (folder at the archive root) through Customize, Skills, Upload a skill in the Claude app in a browser. The upload was accepted, and the installed copy was compared with the revision's runtime files: all seven files are identical. Each case was run with `/seo-content-brief`, the test pack attached and the standard request from the install guide. Model not recorded. Outputs were exported to PDF and are in [runs/2026-11-13/claude-app](runs/2026-11-13/claude-app/).
+
+- T01 pass. Ready for W1. Local Service Content Writer, all 12 sections in order, one C02 differentiator with its safety and triage limits, C04 and C05 only as Do not use, `Human approval: Awaiting approval` on its own line and section 12 states drafting cannot begin. It also flagged the broken versus worn sash cord gap. One first-person admin note in section 1 ("I assigned this label"), which is outside the page voice rules.
+- T02 pass. Blocked: Return to B2. Evidence and Claims Dossier Builder. C02 is Do not use, dependent sections are Deferred, the service owner confirmations are listed and there is no writer handoff. This was the second run in the same chat; the output reports that the first run gave the same disposition.
+- T03 pass. Blocked: Return to B1. Page Opportunity and Intent Validator. No page role, action, URL ownership, blueprint or handoff is invented, and the conflict between A3-014, C03 and B1-014 is named.
+- No em dashes in any output.
+
+Claude Code installation has not been tested yet.
