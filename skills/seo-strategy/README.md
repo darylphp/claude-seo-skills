@@ -8,7 +8,7 @@ Set SEO priorities for one business from its real offers, market, dated baseline
 2. Ask the skill for a strategy. Example request: "Use the SEO Strategy Skill on the attached business record and exports. Label every source and keep implementation approval separate."
 3. Review the strategic choice, the opportunity register and the open items before approving any task.
 
-The status line tells you what can happen next, judged on the leading non-urgent opportunity. **Ready for scoped research** means it still needs a bounded research or validation step, which is handed on. **Ready for implementation planning** means its asset, evidence, owner, authority and acceptance check are clear enough to plan delivery. **Diagnose before prioritising** routes an unexplained decline or suspected defect to diagnosis first. **Return for business facts** names what is missing. An urgent repair is recommended either way.
+The status line tells you what can happen next, judged on the leading non-urgent opportunity. **Ready for scoped research** means its customer task, suitable asset or proposed action is still materially uncertain, so a bounded research question is handed on. **Ready for implementation planning** means the evidence already settles the task, asset and action, and the scope, owner, authority, dependencies and acceptance check are established. An existing page alone doesn't settle the question either way. **Diagnose before prioritising** routes an unexplained decline or suspected defect to diagnosis first. **Return for business facts** names what is missing. An urgent repair is recommended either way.
 
 ## What it does not do
 

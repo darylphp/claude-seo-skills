@@ -41,12 +41,12 @@ Never invent ROI, traffic, ranking or lead projections. Include a bounded scenar
 
 Use the 10 sections of the [output template](references/output-template.md) in order, with one exact status. Choose it from the leading non-urgent opportunity. A recommended urgent repair is routed either way and does not set the status.
 
-- **Ready for scoped research**: the business record is usable, and the leading opportunity still needs a bounded research or validation step before its delivery can be planned. Name that bounded question in the handoffs.
-- **Ready for implementation planning**: for the leading opportunity, the asset and action, evidence, prerequisites, owner, authority and acceptance check are already clear enough to plan delivery. New pages and page sets still need their page-planning check.
+- **Ready for scoped research**: the business record is usable, but the leading opportunity still has a material uncertainty about its customer task, the suitable asset or the proposed action, so a bounded research or validation step has to come before its delivery can be planned. Name that bounded question in the handoffs.
+- **Ready for implementation planning**: the supplied evidence already settles the leading opportunity's customer task, asset and action, and its scope, owner, authority, dependencies and acceptance check are established. New pages and page sets still need their page-planning check.
 - **Diagnose before prioritising**: an unexplained decline or suspected defect would change the priorities, so its cause has to be narrowed first.
 - **Return for business facts**: the business, its offers, its market or the outcome is too unclear to set priorities.
 
-The status describes the strategy record, not ranking potential. One blocked opportunity does not block the others: name it, its dependency and its next check.
+An existing URL does not by itself settle the task or the action, so it is not a reason to skip research that is needed. Equally, do not ask for research that the supplied evidence already answers. The status describes the strategy record, not ranking potential. One blocked opportunity does not block the others: name it, its dependency and its next check.
 
 In section 1, report the approval state the evidence supports: `Proposed`, `Awaiting approval`, `Approved` or `Not established`. When approval is supplied, record the approved scope, revision, approver and date. State that the pack does not itself grant implementation authority. Record existing authorisation for each task, and do not add a new approval step to routine work that is already authorised. Give each task the work state the evidence supports: `Recommended`, `Assigned`, `Implemented`, `Verified` or `Outcome reviewed`. Make any rollback or restore conditional on a diagnosis, a suitable backup or recovery point, a compatibility check and existing authority.
 

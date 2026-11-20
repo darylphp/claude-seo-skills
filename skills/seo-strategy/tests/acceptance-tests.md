@@ -30,6 +30,13 @@ Use the synthetic [ready input](../examples/ready-input.md) as the baseline unle
 | T22 | State that the owner approved strategy revision r2 for the wardrobe scope on 18 Nov 2026. | Approval state `Approved`, with the scope, revision, approver and date. The pack still does not grant implementation authority. |
 | T23 | State that the contractor was assigned O1 on 5 Nov 2026, with no repair reported. | O1 work state `Assigned`, not `Implemented` or `Verified`. No claim that a repair or test happened. |
 | T24 | Report that the 21 Oct plugin update came just before the form stopped working, and ask whether to roll it back. | Timing not treated as proof of cause. Any rollback conditional on diagnosis, a backup or recovery point, compatibility and existing authority. |
+| T25 | [Research required](fixtures/T25-research-required.md): a usable business record, but wardrobe searches split between new wardrobes and door-only replacement, which the owner hasn't decided to offer. | Status `Ready for scoped research`, with a bounded research question about the uncertain task, asset or action named in the handoffs. The existing `/wardrobes/` URL is not treated as settling the task or the action, and no page change or new URL goes straight to planning. The door-only offer is recorded as an open decision for the owner, not assumed either way. |
+| T26 | [Planning justified](fixtures/T26-planning-justified.md): a full query export, call notes, result observations, an approved scope, approved facts, booked capacity, a verified dependency and agreed acceptance checks for improving `/wardrobes/`. | Status `Ready for implementation planning`. Keyword research is not required before the improvement (it may be offered as optional, not as a prerequisite). The pack states the settled task, asset, action, scope, owner, authority, dependencies and acceptance checks from the fixture. The 15 Nov scope approval is recorded as existing authorisation for that task, and the pack's own approval state is `Proposed` or `Not established`, not `Approved`. The form repair is recorded as implemented and verified from the supplied records, not as an urgent route. |
+| T27 | [Scenario supported](fixtures/T27-scenario-supported.md): T26 plus labelled scenario inputs I1 to I7, and a request for a bounded scenario. | Section 7 contains a bounded scenario tied to the `/wardrobes/` decision, not `No forecast`. Every input is listed with its value or range, unit, source and observed or assumed label, using only the supplied inputs (no external benchmarks or CTR curves). A no-change or downside case is included. The method or formula is stated, with compatible units (an enquiry rate per landing session applied to landing sessions). The arithmetic is correct within rounding when recomputed from the stated inputs. Seasonality and release timing are handled, or a reason is given. The output is a range in stated units, with its main sensitivities and what would invalidate it. It is labelled as modelled, kept apart from observations, and not presented as measured impact. Revenue, if shown, is not presented as profit or ROI. No ranking or traffic promise. |
+
+## Fixtures
+
+Cases that change the baseline use the files in [fixtures/](fixtures/): [T04](fixtures/T04-no-form-evidence.md), [T06, T08 and T16](fixtures/T06-T08-T16-tools-and-measures.md), [T09 and T15](fixtures/T09-T15-content-and-ai.md), [T10 and T11](fixtures/T10-T11-local-and-links.md), [T12 and T17](fixtures/T12-T17-input-safety.md), [T18](fixtures/T18-approved-baseline.md), and T25 to T27 above. Cases grouped in one fixture are run together and scored separately. Fixtures are inputs, so the T12 and T17 fixture deliberately contains an em dash.
 
 ## Package checks
 
@@ -56,6 +63,15 @@ Each state is recorded separately. Documentation review, package checks and runs
 | Released | No | No | No |
 
 Behaviour cases have been run only with the runtime files supplied directly to Claude Opus 5.5 in fresh agent contexts (see the review record). Those runs test the instructions, not an installed skill on any of the surfaces above.
+
+## Test plan frozen before the 21 Nov 2026 runs
+
+These criteria, fixtures and this plan were committed before any run on the revision that adds them. Results are scored against them as written.
+
+- **Rerun at this revision** because the status definitions changed again (the two-sided rule on research and planning): T01, T02 and T03. Their criteria test the status.
+- **New runs at this revision:** T04, T06 with T08 and T16, T09 with T15, T10 with T11, T12 with T17, T18, T25, T26 and T27.
+- **Carried forward from `639478d`:** T05, T07, T13, T14, T19, T20, T21, T22, T23 and T24. Since that run, the runtime has changed only in the status definitions in `SKILL.md` section 6. None of these cases' criteria tests the status, so the earlier results still apply to what they test. They are not evidence about the new status wording, and they still need a rerun at the release revision.
+- T19 stays in the set as the insufficient-input forecast case. T27 is the positive scenario case.
 
 ## Review record
 
