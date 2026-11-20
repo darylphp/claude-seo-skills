@@ -39,12 +39,12 @@ Never invent ROI, traffic, ranking or lead projections. Include a bounded scenar
 
 ## 6. Return one strategy pack
 
-Use the 10 sections of the [output template](references/output-template.md) in order, with one exact status:
+Use the 10 sections of the [output template](references/output-template.md) in order, with one exact status. Choose it from the leading non-urgent opportunity. A recommended urgent repair is routed either way and does not set the status.
 
-- **Ready for scoped research**
-- **Ready for implementation planning**
-- **Diagnose before prioritising**
-- **Return for business facts**
+- **Ready for scoped research**: the business record is usable, and the leading opportunity still needs a bounded research or validation step before its delivery can be planned. Name that bounded question in the handoffs.
+- **Ready for implementation planning**: for the leading opportunity, the asset and action, evidence, prerequisites, owner, authority and acceptance check are already clear enough to plan delivery. New pages and page sets still need their page-planning check.
+- **Diagnose before prioritising**: an unexplained decline or suspected defect would change the priorities, so its cause has to be narrowed first.
+- **Return for business facts**: the business, its offers, its market or the outcome is too unclear to set priorities.
 
 The status describes the strategy record, not ranking potential. One blocked opportunity does not block the others: name it, its dependency and its next check.
 
