@@ -1,4 +1,4 @@
-# Fixture T25: research required
+# Fixture T25 v1: research required (superseded; failed 21 Nov 2026, see review record)
 
 Synthetic case. Ridgeway Joinery, its site, people, figures and dates are invented. They are not a real business or real search data.
 

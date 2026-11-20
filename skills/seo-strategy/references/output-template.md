@@ -12,7 +12,7 @@ List any recommended urgent handoffs with their work state. Then report the appr
 
 `Approval state: Proposed`, `Approval state: Awaiting approval`, `Approval state: Approved` or `Approval state: Not established`
 
-Use `Proposed` for a new pack with no approval process supplied, and `Awaiting approval` only when the input shows it has gone to an approver. For `Approved`, add the approved scope, revision, approver and date as supplied. Follow it with:
+The state describes this pack. Use `Proposed` for a new pack with no approval process supplied, and `Awaiting approval` only when the input shows it has gone to an approver. For `Approved`, add the approved scope, revision, approver and date as supplied. An earlier approval of one task is existing authorisation for that task: record it in sections 6 and 9, not here. Follow it with:
 
 `This pack does not itself grant implementation authority.`
 
