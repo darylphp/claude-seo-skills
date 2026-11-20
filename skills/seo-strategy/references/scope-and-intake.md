@@ -46,6 +46,10 @@ Do not invent margins, customer demographics, sales cycles, credentials, branche
 
 ## Urgent routes
 
-A confirmed broken enquiry or booking path, an outage or a security incident goes straight to repair or diagnosis with whoever is authorised to act. Record it as the first opportunity with its acceptance check. Strategy work must not postpone an authorised containment or a clear repair.
+A confirmed broken enquiry or booking path, an outage or a security incident is recommended for immediate diagnosis and repair by whoever is authorised to act. Record it as the first opportunity, with its acceptance check and the work state the input supports. Strategy work must not postpone an authorised containment or a clear repair.
+
+A recommended handoff is not a completed one. Say a task was assigned, implemented or verified only when the input shows it, and otherwise call it a recommended handoff.
+
+A recent update, release or plugin change that lines up with a fault is a lead, not a cause. Recommend a rollback or restore only as a conditional recovery route: it needs a diagnosis linking the fault to that change, a suitable backup or recovery point, a compatibility check, and the authority of whoever would carry it out. A limited fault with an understood fix is usually repaired where it sits rather than rolled back.
 
 For a traffic or lead decline with no confirmed cause, confirm the metric, period and affected scope, list the competing explanations and route the investigation to technical diagnosis. Give provisional priorities only for work that does not depend on the cause. Google lists several possible explanations for a drop, including technical, security and spam issues, algorithmic updates, seasonality and site moves [S14].

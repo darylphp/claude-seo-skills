@@ -15,7 +15,9 @@ Run every opportunity through these questions before scheduling it:
 
 Google's people-first guidance asks whether content offers original information or analysis, adds substantial value when it draws on other sources, and would be useful to an existing or intended audience coming directly to the site. Its warning signs include producing lots of content on many topics in the hope some performs, writing to a word count, and entering a niche mainly for search traffic [S09]. This does not require every page to contain original research or every business to publish on every related subject.
 
-Google's spam policies describe doorway abuse as pages made to rank for similar queries that lead users to less useful intermediate pages, and scaled content abuse as many pages made mainly to manipulate rankings rather than help users [S10]. Creating separate content for every variation of a query, mainly to manipulate rankings or AI responses, falls under scaled content abuse [S13]. Do not plan a page per suburb, keyword modifier or fan-out question. A set of similar pages needs its own page-planning check on member boundaries, useful contribution, data, maintenance and release before the whole set is committed.
+Google's spam policies describe doorway abuse as pages made to rank for similar queries that lead users to less useful intermediate pages, and scaled content abuse as many pages made mainly to manipulate rankings rather than help users [S10]. Creating separate content for every variation of a query, mainly to manipulate rankings or AI responses, falls under scaled content abuse [S13].
+
+Location and variation pages are not banned. Each one needs a justified customer task, accurate service coverage and a useful contribution specific to that page. Never plan pages for places the business does not serve. Treat doorway and scaled content abuse as risks to assess against the actual proposal and the current policy text: describe what the pages would contain and why that would or would not fit, and do not call a proposal a violation from its page count or its name alone. A set of similar pages needs its own page-planning check on member boundaries, useful contribution, data, maintenance and release before the whole set is committed.
 
 **Local applicability.** Google's local ranking help names relevance, distance and prominence as the main factors, and states there is no way to request or pay for a better local ranking [S06]. The page's introduction uses "popularity" for the third factor, so quote it carefully. A longer list of locations on the website is not evidence the business will rank across that area. Assess the real operating model in a local audit.
 
@@ -29,7 +31,7 @@ Prioritise in the real delivery context. A confirmed broken booking path, a well
 
 | Route | Typical basis | Decision |
 | --- | --- | --- |
-| Address a confirmed failure | An observed availability, customer-path, security or access problem | Authorised containment or repair, verification and an owner |
+| Address a confirmed failure | An observed availability, customer-path, security or access problem | Recommend authorised containment, diagnosis and repair, with an owner and a verification check |
 | Improve a supported opportunity | Business fit, useful evidence, a suitable existing page and feasible delivery | A scoped improvement with a measurable acceptance check |
 | Validate before committing | Plausible demand or value, but unclear intent, facts, cause or page need | A bounded research step or check that ends in a decision |
 | Plan after a dependency | Useful work needs access, proof, approval, inventory or technical capacity | The named blocker, its owner, the evidence needed and a review trigger |
@@ -37,9 +39,18 @@ Prioritise in the real delivery context. A confirmed broken booking path, a well
 
 Give each opportunity a value band and an effort band (High, Medium or Low), each with a one-line reason. Keep evidence confidence (High, Medium or Low) in its own column. Count implementation and maintenance as well as research and writing. Name specialist tasks that need a developer, account owner, subject expert or a business decision.
 
-## Forecasts
+## Forecasts and scenarios
 
-Do not invent numerical ROI, hours saved, traffic gains, ranking chances or lead projections. A forecast needs sourced assumptions, ranges, a market and period, a method and its uncertainty, kept apart from observations. Unsupported inputs justify no forecast. A modelled difference is not observed impact. Confidential financial data is optional unless the decision depends on it.
+Never invent ROI, hours saved, traffic gains, ranking chances or lead projections. Include a bounded scenario only when it informs a decision in the pack and its inputs can be sourced. It needs:
+
+- The decision it informs, and its scope: pages, market, channel, outcome and period.
+- The observed baseline, with its source, dates and limits.
+- Each input with its value or range, unit and source, marked observed or assumed, with the reason.
+- A downside or no-change case alongside any other case. Do not manufacture a favourable range.
+- The method or formula, and the delivery constraints that matter, such as capacity and seasonality.
+- The output as a range in stated units, its main sensitivities and what would invalidate it.
+
+Keep the scenario in section 7, apart from observations, and say that a modelled difference between cases is not measured impact. When the evidence cannot support a scenario, write `No forecast` and name the missing inputs. Confidential financial data is optional unless the decision depends on it.
 
 ## Staged plan
 
@@ -54,7 +65,9 @@ These are dependency stages, not monthly commitments or ranking timelines. Work 
 
 ## Task handoff fields
 
-Every consequential task carries: the business objective, audience and market, and exact assets; the observed finding or labelled hypothesis, its evidence and limits; the proposed action and the alternative considered; scope, exclusions, owner, effort band and dependencies; existing approval and current work state; the acceptance check, outcome measure, review trigger and recovery route where practical.
+Every consequential task carries: the business objective, audience and market, and exact assets; the observed finding or labelled hypothesis, its evidence and limits; the proposed action and the alternative considered; scope, exclusions, owner, effort band and dependencies; existing authorisation, approval and work state; the acceptance check, outcome measure, review trigger and a recovery route where practical.
+
+Work states are `Recommended`, `Assigned`, `Implemented`, `Verified` and `Outcome reviewed`. Use only the state the evidence shows: a task in this pack is `Recommended` unless the input says otherwise. A recovery route that involves a rollback or restore stays conditional on a diagnosis, a suitable backup or recovery point, a compatibility check and existing authority.
 
 A research task ends with a decision or a clearly bounded open question, not a keyword dump. A content task never skips required evidence to meet a date. An implementation task is not successful because it was marked complete. Google gives no guarantee that a site will be indexed, and says changes can take anywhere from a few hours to several months to be reflected [S11]. Using a tool or service does not guarantee ranking success either [S08].
 

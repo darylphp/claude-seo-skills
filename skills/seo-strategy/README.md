@@ -12,20 +12,28 @@ The status line tells you what can happen next. **Ready for scoped research** ha
 
 ## What it does not do
 
-- Invent margins, capacity, credentials, locations, traffic, leads, revenue or forecasts.
+- Invent margins, capacity, credentials, locations, traffic, leads or revenue, or give a projection without sourced inputs, ranges and stated uncertainty.
 - Treat tool estimates, Search Console data, Analytics events and business records as the same kind of evidence.
-- Name a Google update as the cause of a drop from timing alone.
-- Plan a page per suburb, keyword modifier or AI fan-out question, or a fixed publishing cadence.
+- Name a Google update, or a plugin update, as the cause of a problem from timing alone.
+- Conclude what an Analytics event records, or change tracking, before the setup has been inspected.
+- Plan location or variation pages for places the business does not serve or without a real customer task and page-specific content, or commit to a fixed publishing cadence.
+- Report a handoff, repair or approval as done without evidence.
 - Choose URLs, write briefs or copy, buy links, contact anyone or approve and carry out changes.
 - Promise rankings, traffic or conversions.
 
 ## Package layout
 
-- [SKILL.md](SKILL.md) and `references/` are the shared runtime files for Claude and ChatGPT.
+- [SKILL.md](SKILL.md) and `references/` are the runtime files, intended for both Claude and ChatGPT. Compatibility is not verified until platform tests are recorded.
 - `examples/` contains a synthetic ready case, a blocked-scope case and a decline that routes to diagnosis.
 - [Acceptance tests](tests/acceptance-tests.md) define behaviour and package checks.
 - [Claude setup](platforms/claude.md) and [ChatGPT setup](platforms/chatgpt.md) cover installation.
 - [Changelog](CHANGELOG.md) tracks revisions.
+
+## Status
+
+Unreleased draft. The [acceptance tests](tests/acceptance-tests.md) record each state separately: documentation checked, package checks passed, installation tested, activation or invocation confirmed, behaviour tests passed, and released. A run on one platform is not a test of the other.
+
+## Installation
 
 Keep the runtime folder named `seo-strategy` when staging it for installation. Copy `SKILL.md` and `references/` together, preserving relative paths. The package uses Markdown only and has no scripts or service dependencies.
 

@@ -8,10 +8,12 @@ Sections 4 to 9 are shortened here to show the routing.
 
 - Status: Diagnose before prioritising
 - The drop is recorded in Analytics events, not in bookings, and two site changes landed in the same fortnight. A consent banner can change what Analytics records, and a theme change can affect pages, forms and tracking. A Google update is one possible explanation among several, and timing alone does not show which one applies [S14]. Rewriting the strategy before the cause is narrowed down would risk fixing the wrong thing.
-- Provisional priorities that do not depend on the cause: confirm the booking form works on the new theme, and compare booking-system requests for the same months with the Analytics events.
-- Urgent route: none confirmed. If the form test fails, it becomes a confirmed failure and goes straight to repair.
+- Provisional priorities that do not depend on the cause: test the booking form end to end on the new theme, and compare booking-system requests with the Analytics events for the same months, timezone and pages. Any tracking change waits for a confirmed finding.
+- Recommended urgent handoff: none yet. If a booking form test fails, recommend it for immediate diagnosis and repair.
 
-Approval state: Strategy awaiting approval. This pack does not approve implementation.
+Approval state: Proposed
+
+This pack does not itself grant implementation authority.
 
 ## 2. Business and scope record
 
@@ -53,8 +55,9 @@ Deferred until the diagnosis narrows the cause.
 
 ```text
 Task and opportunity ID: Diagnose the September decline (O1)
-Handed to: technical diagnosis
+Recommended handoff to: technical diagnosis
 Bounded question: did bookings fall, or only recorded events, and did the 12 Sep theme change alter pages, forms or URLs?
+Existing authorisation, approval and work state: none supplied; Recommended
 Acceptance check: a dated finding for each explanation in section 4, with confidence
 ```
 

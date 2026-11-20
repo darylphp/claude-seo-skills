@@ -8,7 +8,11 @@ Synthetic case. The request reads "Write an SEO strategy for my new online store
 - A strategy cannot be set without knowing what the store sells, where it delivers and what outcome it needs. "Everything, worldwide" gives no offer or market to prioritise, and traffic alone is not a business outcome. No ranking position can be promised for any plan, because tools and services cannot guarantee ranking success [S08].
 - To start, supply: the products actually stocked and any the business will not sell, the countries the store delivers to and the language, and the outcome that matters (orders, a margin focus, or another defined action). A live URL, if one exists, and any Search Console or Analytics access would also help.
 
-Approval state: Strategy awaiting approval. This pack does not approve implementation.
+Approval state: Not established
+
+No strategy has been produced yet, so there is nothing to approve.
+
+This pack does not itself grant implementation authority.
 
 ## 2. Business and scope record
 
@@ -35,7 +39,7 @@ Deferred.
 
 ## 7. Priorities and trade-offs
 
-Deferred. No forecast.
+Deferred. No forecast: there is no offer, market or baseline to model yet.
 
 ## 8. Staged plan
 

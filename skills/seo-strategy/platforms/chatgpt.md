@@ -1,6 +1,6 @@
 # ChatGPT
 
-Documentation checked 20 November 2026. Installation has not been tested for v0.1.0.
+Documentation checked 20 November 2026. For v0.1.0, installation has not been tested, invocation has not been confirmed and no behaviour case has been run on ChatGPT. Results from Claude runs do not show how ChatGPT behaves.
 
 The same `SKILL.md` and `references/` files are intended for ChatGPT. Keep this folder as the single source and build any ChatGPT package from the same reviewed revision, so each rule is edited in one place.
 
@@ -14,4 +14,4 @@ OpenAI's help page lists skills for ChatGPT Business, Enterprise, Healthcare and
 
 ## Use
 
-Attach or paste the business details and any exports, then ask for an SEO strategy using the skill. Check that the pack keeps the 10 sections in order and prints the approval line in section 1.
+Attach or paste the business details and any exports, then ask for an SEO strategy using the skill. Check that the pack keeps the 10 sections in order and reports an approval state in section 1.

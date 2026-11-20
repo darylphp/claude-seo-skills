@@ -1,6 +1,6 @@
 # Claude
 
-Documentation checked 20 November 2026. Installation has not been tested for v0.1.0.
+Documentation checked 20 November 2026. For v0.1.0, installation has not been tested and invocation has not been confirmed in the Claude app or Claude Code. Behaviour runs recorded in the acceptance tests supplied the files to Claude directly; they are not installation or invocation tests.
 
 ## Claude app
 

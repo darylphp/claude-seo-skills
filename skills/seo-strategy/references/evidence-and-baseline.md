@@ -82,11 +82,26 @@ Analytics key events measure actions that are particularly important to the busi
 Record the real-world action, its event or report, the counting method, the channel scope and the quality checks. Keep these levels apart:
 
 - Interaction, such as a click on a phone link or a form button.
-- A recorded enquiry or completed booking request.
-- A business-confirmed qualified lead or completed booking.
-- A completed sale and verified revenue, where they apply.
+- Recorded event, such as an Analytics key event. It shows what the tracking counted, not what happened next.
+- Successful form submission: the form processed the entry and stored it where the form keeps entries.
+- Notification delivery: the email or message reached its destination.
+- Received enquiry: the business has it in its own records.
+- Qualified lead or completed booking, confirmed by the business.
+- Completed sale and verified revenue, where they apply.
 
-A call-button click is not a connected call. A form event is not proof that the message arrived or was useful. Do not claim a query produced a specific lead by joining aggregate Search Console and Analytics data. If attribution or lead quality is unavailable, say so and use a labelled provisional measure.
+A call-button click is not a connected call. An Analytics event does not by itself prove that a form was submitted, that a message was delivered, or that the enquiry was unique or useful. Do not claim a query produced a specific lead by joining aggregate Search Console and Analytics data. If attribution or lead quality is unavailable, say so and use a labelled provisional measure.
+
+## When sources disagree
+
+A gap between recorded events and business records is an observation to investigate, not a diagnosis. Do not conclude what an event records, or that its trigger is faulty, until its setup has been inspected. Before recommending any change, check:
+
+- The event's definition, trigger and counting method.
+- Duplicate firing, repeated or invalid submissions, and test submissions.
+- Consent, filtering and reporting differences between the two sources.
+- Form processing, stored entries, notification delivery and how the business records enquiries.
+- Whether the two figures cover the same period, timezone, forms, pages and channels.
+
+Record each possible cause as confirmed, ruled out or untested. Make any tracking or form configuration change conditional on a confirmed finding, with a test showing the change records what it should, and restore an earlier configuration only after checking it is suitable. Do not expect Analytics and business records to match exactly, because consent, deduplication and recording rules differ. Agree a tolerance and an explanation instead. Keep names, email addresses and phone numbers out of Analytics.
 
 Business Profile performance includes activity from both organic results and Google Ads [S07]. Keep each metric's scope and do not report every profile interaction as unpaid SEO or a completed outcome.
 

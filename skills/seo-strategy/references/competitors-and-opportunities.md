@@ -46,7 +46,7 @@ Record a problem or audience opportunity before proposing a deliverable. For eac
 | Structured data | Visible verified facts, current markup output and a supported need | An evidence-led keep, repair, add, remove or defer decision |
 | AI features | An applicable feature, an ordinary search eligibility question or reproducible visibility evidence | An AI-visibility check. No special AI writing style, special markup or page per fan-out question |
 | Reputation and links | Genuine business evidence, a broken important reference, a useful resource or a specific unnatural-link concern | The reputation rules below. Technical or policy incidents go to diagnosis |
-| Measurement and customer journey | An important outcome cannot be measured or is recorded unreliably | Verify the path and definitions before declaring success or failure, then hand to measurement setup |
+| Measurement and customer journey | An important outcome cannot be measured, or two sources disagree about it | Investigate the definitions, counting, coverage and processing before declaring success or failure. Change configuration only after a confirmed finding |
 
 Google says its ranking systems are designed to work at page level, that site-wide signals and classifiers are also used, and that good or poor site-wide signals do not mean all of a site's content will rank the same way [S12]. Do not prioritise a whole-site rewrite because a few pages declined.
 
