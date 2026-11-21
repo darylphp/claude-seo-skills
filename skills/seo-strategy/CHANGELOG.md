@@ -2,7 +2,13 @@
 
 ## v0.1.0
 
-Unreleased. Review corrections on 20 Nov 2026:
+Unreleased. Review corrections on 21 Nov 2026:
+
+- The status rule is two-sided. `Ready for scoped research` applies when the leading opportunity's task, asset or action is still materially uncertain. `Ready for implementation planning` applies when the evidence settles them and scope, owner, authority, dependencies and acceptance are established. An existing URL alone does not settle the decision, and research is not asked for when the evidence already answers it.
+- The approval state describes the strategy pack. An earlier approval of one task is recorded as existing authorisation for that task.
+- Acceptance cases T25 (research required), T26 (planning justified) and T27 (a supported bounded scenario) added with synthetic fixtures. T25 v1 and v2 have both failed; see the review record in the acceptance tests.
+
+Review corrections on 20 Nov 2026:
 
 - A gap between Analytics events and business records is investigated (definition, trigger, counting, duplicates, test submissions, consent and reporting, stored entries, delivery, period and scope) before any configuration change. Successful submission, notification delivery, received enquiry and qualified lead are separate outcome levels.
 - Bounded scenarios are allowed when they inform a decision and every required element is sourced. Otherwise the pack says `No forecast`.

@@ -56,7 +56,7 @@ Each state is recorded separately. Documentation review, package checks and runs
 | State | Claude app | Claude Code | ChatGPT |
 | --- | --- | --- | --- |
 | Documentation checked | 20 Nov 2026 | 13 Nov 2026, carried forward | 20 Nov 2026 |
-| Package checks passed | Yes, shared files at `de42dbe` | Yes, shared files at `de42dbe` | Yes, shared files at `de42dbe` |
+| Package checks passed | Yes, shared files at `91548bc` and on the commit that records its runs | Yes, shared files at `91548bc` and on the commit that records its runs | Yes, shared files at `91548bc` and on the commit that records its runs |
 | Installation tested | No | No | No |
 | Activation or invocation confirmed | No | No | No |
 | Behaviour tests passed on this surface | No run on this surface | No run on this surface | No run on this surface |
@@ -83,7 +83,7 @@ These criteria, fixtures and this plan were committed before any run on the revi
 
 ## Review record
 
-All runs on 20 Nov 2026, Claude Opus 5.5 (`claude-opus-5-5`), fresh general-purpose agent contexts in a claude.ai cloud session, runtime files read from disk, skill not installed. Example outputs and these criteria were withheld from each run. Scored by the session that wrote the skill, not independently. Full records, inputs and verbatim outputs are in `tests/runs/`.
+Runs on 20 and 21 Nov 2026 (Asia/Manila), Claude Opus 5.5 (`claude-opus-5-5`), fresh general-purpose agent contexts in a claude.ai cloud session, runtime files read from disk, skill not installed or invoked. Example outputs and these criteria were withheld from each run. Each set was scored against the criteria as committed before it ran. Scored by the session that wrote the skill, not independently. Full records, inputs and verbatim outputs are in `tests/runs/`.
 
 | Run | Cases | Runtime revision | Result |
 | --- | --- | --- | --- |
@@ -99,7 +99,49 @@ All runs on 20 Nov 2026, Claude Opus 5.5 (`claude-opus-5-5`), fresh general-purp
 | [R1](runs/2026-11-20-de42dbe/R1-T01.md) | T01 | `de42dbe` | Fail against T01 as first written; pass against the revised T01 |
 | [R2](runs/2026-11-20-de42dbe/R2-T02.md) | T02 | `de42dbe` | Pass |
 | [R3](runs/2026-11-20-de42dbe/R3-T03.md) | T03 | `de42dbe` | Pass |
+| [R1](runs/2026-11-21-defcca9/R1-T01.md) | T01 | `defcca9` | Fail against T01 as first written; pass against the revised T01 |
+| [R2](runs/2026-11-21-defcca9/R2-T02.md) | T02 | `defcca9` | Pass |
+| [R3](runs/2026-11-21-defcca9/R3-T03.md) | T03 | `defcca9` | Pass |
+| [R10](runs/2026-11-21-defcca9/R10-T04.md) | T04 | `defcca9` | Pass |
+| [R11](runs/2026-11-21-defcca9/R11-T06-T08-T16.md) | T06, T08, T16 | `defcca9` | Pass |
+| [R12](runs/2026-11-21-defcca9/R12-T09-T15.md) | T09, T15 | `defcca9` | Pass |
+| [R13](runs/2026-11-21-defcca9/R13-T10-T11.md) | T10, T11 | `defcca9` | Pass |
+| [R14](runs/2026-11-21-defcca9/R14-T12-T17.md) | T12, T17 | `defcca9` | Pass |
+| [R15](runs/2026-11-21-defcca9/R15-T18.md) | T18 | `defcca9` | Pass |
+| [R16](runs/2026-11-21-defcca9/R16-T25.md) | T25 (fixture v1) | `defcca9` | Fail: fixture defect. The uncertainty sat on a side task, so planning the leading opportunity was consistent with the definitions |
+| [R17](runs/2026-11-21-defcca9/R17-T26.md) | T26 | `defcca9` | Fail: one criterion. A task approval was reported as the pack's `Approved` state |
+| [R18](runs/2026-11-21-defcca9/R18-T27.md) | T27 | `defcca9` | Pass. Arithmetic rechecked separately; every figure matched |
+| [R1](runs/2026-11-21-91548bc/R1-T01.md) | T01 | `91548bc` | Fail against T01 as first written; pass against the revised T01 |
+| [R2](runs/2026-11-21-91548bc/R2-T02.md) | T02 | `91548bc` | Pass |
+| [R8](runs/2026-11-21-91548bc/R8-T13-T14.md) | T13, T14 | `91548bc` | Pass |
+| [R9](runs/2026-11-21-91548bc/R9-T22-T23.md) | T22, T23 | `91548bc` | Pass |
+| [R17](runs/2026-11-21-91548bc/R17-T26.md) | T26 | `91548bc` | Pass |
+| [R19](runs/2026-11-21-91548bc/R19-T25v2.md) | T25 (fixture v2) | `91548bc` | Fail: status and routing. See the open decision below |
 
-`de42dbe` changed only the status definitions in `SKILL.md` and the README wording from `639478d`. The cases run only at `639478d` were not rerun after that change.
+`de42dbe` changed only the status definitions in `SKILL.md` and the README wording from `639478d`. `defcca9` added the two-sided rule on research and planning. `91548bc` changed only the approval-state wording in `SKILL.md` and the output template.
 
-Not yet run: T04, T06, T08, T09, T10, T11, T12, T15, T16, T17 and T18. Run the complete set, and install and invoke the package on each platform, before describing any version as stable.
+### T01 history
+
+T01 first required `Ready for scoped research` only. The runs at `639478d` and `de42dbe` returned `Ready for implementation planning` and failed it. On 20 Nov the criterion was revised to accept either status when it matches the definitions and the pack's own routing. The revision is noted in the T01 row. Every later T01 run (`defcca9`, `91548bc`) also fails the first wording and passes the revised one. No earlier record was rescored in place: each record shows the criteria it was scored against.
+
+### Latest result for each case
+
+| Case | Latest run | Revision | Result | Why this run stands for the case |
+| --- | --- | --- | --- | --- |
+| T01, T02, T13, T14, T22, T23, T26 | 91548bc R1, R2, R8, R9, R17 | `91548bc` | Pass (T01 against the revised criterion) | Rerun at the current runtime |
+| T25 | 91548bc R19 (fixture v2) | `91548bc` | Fail | Rerun at the current runtime |
+| T03, T04, T06, T08 to T12, T15 to T18, T27 | defcca9 R3, R10 to R15, R18 | `defcca9` | Pass | Carried forward. `91548bc` changed only the approval wording, which these criteria do not test |
+| T05, T07, T19, T20, T21, T24 | 639478d R4 to R7 | `639478d` | Pass | Carried forward. Their criteria test neither the status nor the approval state. T21's routing of new location pages sits closest to the later status wording ("New pages and page sets still need their page-planning check"), so it is the first case to watch in the release rerun |
+
+Of the 27 cases, 26 pass at their latest run and T25 fails. Carried-forward results are evidence about what their criteria test at the revision they ran on. They are not evidence about the later wording, and every case still needs a rerun at the release revision.
+
+### Open decision: T25 and the research status
+
+No run at `defcca9` or `91548bc` has returned `Ready for scoped research`. Both T25 fixtures failed. With v2, the run treated thin local demand and unsourced phone requests as reasons to measure while improving the page, not as reasons to validate before planning it. Two ways forward, for the owner to choose:
+
+1. **Runtime change.** Tie the status to the leading opportunity's priority route, so that when that route is "Validate before committing" (or its confidence rests on demand or fit that has not been shown), the status is `Ready for scoped research`. This changes the status rule, so T01, T04, T06, T08 to T12, T15 to T18 and T25 to T27 would all need rerunning.
+2. **Fixture change.** Keep the runtime and write T25 v3 around an uncertainty that the supplied evidence cannot settle, such as a conflict over which page should serve the task or an offer the owner has not decided to sell. Only T25 would need rerunning.
+
+The first option risks pushing more existing-page improvements into research, which the brief does not want as a blanket rule. The second leaves the runtime as it is and tests whether it recognises a real gap. Neither has been applied.
+
+Run the complete set at the release revision, and install and invoke the package on each platform, before describing any version as stable.
