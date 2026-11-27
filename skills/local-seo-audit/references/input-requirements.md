@@ -18,9 +18,10 @@ Never ask for or keep passwords, verification codes, unredacted identity documen
 
 ## Return paths
 
-- **Blocked: Confirm the business and location** when the business, location or profile cannot be identified with confidence, when two candidate profiles match and nothing confirms which belongs to the business, when several locations are in scope and none is selected, or when the task needs account access or changes and the requester's relationship to the business is unknown. Name the missing fact and who can supply it.
+- **Blocked: Confirm the business and location** when the business, location or profile cannot be identified with confidence, when two candidate profiles match and nothing confirms which belongs to the business, when several locations are mentioned but the intended audit scope is ambiguous, or when the task needs account access or changes and the requester's relationship to the business is unknown. Name the missing fact and who can supply it.
 - **Blocked: Supply audit evidence** when the business and location are clear but nothing can be inspected: no profile evidence, no website, no exports, and no permission or ability to open public pages. Name the smallest evidence set that would let the audit start.
 - If both apply, report the identity block first and list the evidence needed for the next pass.
-- **Escalate first: Profile incident** takes precedence over a ready report. See [action rules](action-rules.md), section 3.
+- **Escalate first: Profile incident** takes precedence when the affected business/profile and incident are identifiable, even if other audit evidence is missing. Do not attribute an incident to an unconfirmed candidate profile. See [action rules](action-rules.md), section 4.
 - Unresolved eligibility does not block the audit. Put profile creation and identity-sensitive profile changes on hold for eligibility, and continue with the website, reputation and measurement checks that still help.
 - For a batch, keep each location's record, findings and approval separate. Do not present a group total in place of location-level findings.
+

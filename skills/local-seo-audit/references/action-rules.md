@@ -6,6 +6,8 @@ IDs in brackets refer to the [source register](source-register.md). Text marked 
 
 These are operating priorities, not Google severity labels. Adjust for business impact and dependencies.
 
+Treat a live main contact number retained from a former agency, with business control and routing undocumented, as an **Urgent verification/control gap**. Urgency concerns customer-contact exposure; it does not establish misrouting, lost ownership or a profile incident. Preserve the working path while verifying rights and routing. Use the incident status only when harmful false contact, unauthorised control or another defined incident is actually evidenced. A maintenance agreement covering a conditional number restoration does not remove this verification priority.
+
 | Priority | Examples | What the report says |
 | --- | --- | --- |
 | Urgent | Unauthorised access, a suspended profile, a false closure, a phone, address or contact route that misdirects customers or is outside the business's control, a broken main enquiry route | Name an owner now, preserve evidence, and correct or escalate within existing permission |
@@ -28,9 +30,24 @@ For each action, record:
 
 **Google guidance [G19]:** profile edits can be accepted, pending or rejected, and review can take longer than usual. An unchanged public value soon after submission is not proof of rejection. **Google guidance [G20]:** some suggested edits have a short response window after notification, so recommend a named alert owner and a backup.
 
-## 3. Incident route
+## 3. Approval and recovery
 
-Use the status **Escalate first: Profile incident** when the evidence shows any of the cases below. Hold growth recommendations until the incident is handled, and keep confirmed facts in the report.
+Record authority supplied by the user or approved business records for each exact action, with scope, source, approver/role, date and revision where available. Accept an applicable standing maintenance agreement or explicit action approval; do not manufacture a new confirmation step or insist on an extra approval document. Broad management consent does not automatically approve every change. Apply Google's specific third-party review-reply permission rule separately [G04].
+
+Print one line in section 1:
+
+- `Implementation approval: Awaiting approval` when proposed actions need permission that has not been supplied.
+- `Implementation approval: Partially approved` when only named actions are covered; identify both covered and uncovered IDs.
+- `Implementation approval: Approved` when all proposed implementation actions are within evidenced authority; list the basis and covered IDs.
+- `Implementation approval: Not established` when no implementation action has been proposed or authority cannot yet be assessed.
+
+The report does not grant authority and never executes changes. Keep proposed, approved, submitted, accepted/rejected/pending, publicly verified and outcome-reviewed states separate. Record a recommended handoff as recommended unless assignment or completion is evidenced.
+
+For consequential recommendations involving contact routing, identity, access, merges or URLs, specify a saved before-state, affected dependencies, owner, acceptance and viable correction/recovery route. Verify ownership and routing before a number change. Do not advise repeating an appeal, reverting a business move or restoring an obsolete configuration merely because rankings changed.
+
+## 4. Incident route
+
+Use the status **Escalate first: Profile incident** when the evidence shows any of the cases below. Hold growth recommendations dependent on the incident until it is handled. Continue safe website, reputation or measurement checks when they still help. Keep confirmed facts, preserve historic measurements and annotate the affected period rather than discarding it.
 
 | Incident | Supported boundary | What to report |
 | --- | --- | --- |
@@ -42,6 +59,7 @@ Use the status **Escalate first: Profile incident** when the evidence shows any 
 
 Never recommend recreating a profile to avoid enforcement, fabricating documents or promising reinstatement.
 
-## 4. Handoffs
+## 5. Handoffs
 
 Name the next workflow when the work belongs elsewhere: technical SEO diagnosis, keyword or page-opportunity research, a content brief, structured data implementation or measurement setup. The audit states what the handoff needs. It does not do that work.
+

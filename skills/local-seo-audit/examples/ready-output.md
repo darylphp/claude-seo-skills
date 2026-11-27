@@ -34,7 +34,7 @@ Not verified: PH-B control and routing, verification state, pending edits, citat
 
 ## 4. Eligibility, representation and access
 
-The business makes in-person contact with customers at their premises, which fits a service-area profile [G01, G02]. Because the base does not receive customers, the address should be hidden [G01, G03]. The profile currently shows the owner's home address. Performance data exists in E4, and Google provides it only for verified profiles [G10], so the profile is probably verified (Inference, Medium). Ownership and manager consent are recorded. Reply approval is not, so no review replies should be posted on the business's behalf yet [G04]. Name, category and address edits can affect verification [G06, G07], so they should go in one approved, grouped change.
+The business makes in-person contact with customers at their premises, which fits a service-area profile [G01, G02]. Because the base does not receive customers, the address should be hidden [G01, G03]. The profile currently shows the owner's home address. E4 is a supplied historical performance export. Although Google limits performance access to verified profiles [G10], this does not establish the current verification state; it remains Not verified without current account evidence or owner confirmation. Ownership and manager consent are recorded. Reply approval is not, so no review replies should be posted on the business's behalf yet [G04]. Name, category and address edits can affect verification [G06, G07], so they should go in one approved, grouped change.
 
 ## 5. Profile accuracy
 
@@ -93,3 +93,4 @@ No action:
 - **Citations:** a list of the directories customers actually use, if accuracy problems are suspected.
 - **Handoffs:** F8 to a keyword research or page-opportunity workflow. F10 to measurement setup.
 - **Action states:** every action above is proposed. None is approved, submitted or verified.
+

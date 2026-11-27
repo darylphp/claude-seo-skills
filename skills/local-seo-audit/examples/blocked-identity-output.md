@@ -8,7 +8,7 @@ Synthetic variation of [ready-input.md](ready-input.md). The request now reads "
 - Two candidate profiles match the name. Nothing supplied links either one to the client, and the business model, coverage and approved facts are unknown.
 - To unblock: the owner or an authorised contact confirms the profile URL, the business model and the approved facts (name, address or base, areas, hours, phone, services). One of these can come from the business's website, signage or invoices.
 
-Implementation approval: Awaiting approval
+Implementation approval: Not established
 
 ## 2. Business record
 
@@ -47,3 +47,4 @@ No findings. Do not edit, claim or report either candidate profile until ownersh
 - Which profile belongs to the client, confirmed by the owner or an authorised contact.
 - The client's website URL.
 - For the next pass: the evidence listed in the input requirements, especially public profile screenshots and any performance export.
+

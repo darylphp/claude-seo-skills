@@ -4,7 +4,7 @@ Use these 10 numbered headings in this order. Use one exact status from SKILL.md
 
 ## 1. Audit status and scope
 
-Record the exact status, the location and profile identifier, the audit date and evidence cut-off, the evidence basis (public only, account exports, business-confirmed facts), the areas covered and not covered, and the main limitation. Then, on its own line: `Implementation approval: Awaiting approval`. Replace it only when a valid approval for the exact actions was supplied, naming the approver, role, date and the action IDs it covers.
+Record the exact status, the location and profile identifier, the audit date and evidence cut-off, the evidence basis (public only, account exports, business-confirmed facts), the areas covered and not covered, and the main limitation. Print one implementation-approval line using action-rules.md section 3. Identify existing authority by the exact covered action IDs and its source. Keep uncovered actions awaiting approval without reopening permission already held. If there are no implementation actions, use Not established.
 
 ## 2. Business record
 
@@ -49,4 +49,5 @@ Order by priority, then customer impact. List no-action decisions separately wit
 
 ## 10. Open questions and handoffs
 
-List each unknown with the evidence that would resolve it and who can supply it, the handoffs to other workflows, and the state of each action: proposed, approved, submitted, publicly verified or outcome-reviewed. Proposed is the default.
+List each unknown with the evidence that would resolve it and who can supply it, recommended handoffs to other workflows with required inputs, and the state of each action: proposed, approved, submitted, pending/accepted/rejected where known, publicly verified or outcome-reviewed. Do not describe a recommendation as assigned or completed. Proposed is the default.
+

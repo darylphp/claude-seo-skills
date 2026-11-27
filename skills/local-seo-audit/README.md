@@ -1,33 +1,23 @@
 # Local SEO Audit Skill
 
-Audit one business location's local search presence from the evidence you supply: its Google Business Profile, the website page the profile links to, the reviews process and local measurement. The skill returns a 10-section report with evidence-labelled findings, a priority for each, the smallest justified action and a check that shows whether the action worked.
+Draft v0.1.0, under review. Audit one real business location's Google Business Profile, linked website page, review process and local measurement from supplied evidence and accessible public pages. Return a 10-section report with evidence labels, priorities, action-specific approval, acceptance checks and open questions.
 
-## Start here
+## Use the draft
 
-1. Supply one location's business record (approved facts, business model, objective, access and permissions) and the evidence you have. See [input requirements](references/input-requirements.md) and the [synthetic input](examples/ready-input.md).
-2. Ask the skill to audit that location. Example request: "Use the Local SEO Audit Skill to audit the attached location. Label the evidence and keep approval separate."
-3. Review the findings. An authorised person approves specific actions before anyone edits the profile, the website or the review process.
+Supply the real trading name, one identified location, profile/website URLs, business model, customer action, approved facts and available evidence. Use [input requirements](references/input-requirements.md) and the labelled [synthetic fixture](examples/ready-input.md). Ask: "Use the Local SEO Audit Skill to audit this location from these facts and evidence."
 
-The status line tells you what happened. Ready means the findings are ready for review. Escalate means a suspension, duplicate, ownership dispute or similar incident comes first. Blocked names the missing business fact or evidence.
+Ready means ready for human review. Existing permission is recorded by action, without a repeated request. The audit performs no edits, calls, form submissions, customer messages, appeals or review replies and does not promise rankings or growth. Public-only findings can be useful; account-only checks remain Not verified. For a defined batch, keep a separate report per location.
 
-## What it does not do
+## Files and platforms
 
-- Sign in to, change or create Google Business Profiles, websites or other accounts.
-- Contact customers, or request or reply to reviews.
-- Promise rankings, map positions, call volumes or timelines.
-- Write publishable page copy, a finished profile description, review replies or final structured data code.
-- Research keywords or decide whether new pages should exist. It hands those to the right workflow.
+- Runtime: [SKILL.md](SKILL.md) and [references](references/input-requirements.md). No runtime scripts, paid tools or service dependencies.
+- Optional Codex interface: `agents/openai.yaml`.
+- Setup: [ChatGPT/Codex](platforms/chatgpt.md) and [Claude/Claude Code](platforms/claude.md). Intended compatibility is not verified installation.
+- Examples: labelled synthetic ready, blocked and incident cases.
+- Validation: [acceptance cases and status](tests/acceptance-tests.md), plus dated direct-file outputs when run. Package checks and model runs are not platform activation tests.
 
-## Package layout
+Keep SKILL.md and references together. Follow the live platform upload requirements. There is no tested stable release or approved download yet.
 
-- [SKILL.md](SKILL.md) and `references/` are the shared runtime files.
-- `examples/` contains a synthetic ready case and blocked and incident outputs.
-- [Acceptance tests](tests/acceptance-tests.md) define behaviour and package checks.
-- [Claude setup](platforms/claude.md) covers installation.
-- [Changelog](CHANGELOG.md) tracks revisions.
+## Provenance and limits
 
-Keep the runtime folder named `local-seo-audit` when staging it for installation. Copy `SKILL.md` and `references/` together, preserving relative paths. The package uses Markdown only and has no scripts or service dependencies.
-
-## Workflow provenance
-
-The method follows the Local SEO and GBP Operating Playbook v1.2, sections 1 to 13 and 15. Measurement definitions align with the SEO Measurement, Reporting and Refresh Playbook v1.1, and structured data work is handed to the Schema Markup Implementation and Validation Playbook v1.3. The runtime carries the applicable rules in its own references. Google guidance is paraphrased with source IDs and check dates in the [source register](references/source-register.md).
+Adapted from the public Claude Local SEO Audit draft at `4e30f9102fcbfbc318bde1b9e0ffae53c4551b22`, using the Local SEO and GBP Operating Playbook v1.2. The runtime is self-contained and does not require the private project playbooks. [Source register](references/source-register.md) records primary guidance, 27 November 2026 review scope and adaptation changes. Measurement and schema work is routed to specialist workflows when needed. No client records, credentials or real business results are included.

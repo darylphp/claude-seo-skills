@@ -43,7 +43,7 @@ Deferred, except to check that the website states the real name, coverage and ho
 
 ## 8. Measurement and visibility baseline
 
-Deferred. Performance during a suspension is not a useful baseline.
+Deferred. Preserve historical measurements and annotate the suspension period. It is not a like-for-like normal-operation comparison; current performance and the suspension cause remain unverified.
 
 ## 9. Prioritised findings and actions
 
@@ -59,3 +59,4 @@ Deferred. Performance during a suspension is not a useful baseline.
 - Who controls PH-B, since the appeal evidence should use a number the business controls.
 - After the appeal outcome, rerun the audit for the growth findings in the ready case.
 - Action states: all proposed.
+

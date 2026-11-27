@@ -4,14 +4,14 @@ IDs in brackets refer to the [source register](source-register.md). Text marked 
 
 ## 1. Eligibility and representation
 
-**Google guidance [G01, G02]:** a business needs in-person contact with customers during its stated hours, with listed exceptions. Online-only businesses and lead-generation businesses are ineligible. Only owners or authorised representatives may manage a profile. The profile name should match the real-world name, without taglines, keywords, location or hours text. A mailing-only virtual office is ineligible. A co-working office needs clear signage, customers received there and the business's own staff during stated hours. A business that shows its address should keep permanent signage there.
+**Google guidance [G01, G02]:** a business needs in-person contact with customers during its stated hours, with listed exceptions. Online-only businesses and lead-generation businesses are ineligible. Only owners or authorised representatives may manage a profile. The profile name should match the real-world name, without unsupported taglines, keywords, location or hours additions. A word that genuinely belongs to the documented real-world name is not an error simply because it also describes a place or service. A mailing-only virtual office is ineligible. A co-working office needs clear signage, customers received there and the business's own staff during stated hours. A business that shows its address should keep permanent signage there.
 
 Check the actual operating model before judging the profile:
 
 | Model | What to check |
 | --- | --- |
 | Storefront | The public address matches customer-facing premises with signage, staff and access during stated hours. |
-| Service-area | The business travels to customers and does not receive them at its base, so the address should be hidden [G01, G03]. Never recommend publishing a private home address. |
+| Service-area | The business travels to customers and does not receive them at its base, so the address should be hidden [G01, G03]. Do not expose the private service-area base to satisfy a ranking or schema checklist. |
 | Hybrid | The business receives customers at the address during stated hours and also travels or delivers. Both arrangements are real and evidenced. |
 | Practitioner, department, chain or brand | Apply the specific representation rule in G01 before recommending an edit or a new profile. |
 
@@ -39,9 +39,9 @@ For each field, record the observed value, the approved value, the gap and the e
 
 | Field | Check | Avoid |
 | --- | --- | --- |
-| Name | Matches the name on signage, stationery and the website [G01]. | Keywords, places, hours or taglines added to the name. |
+| Name | Matches the name on signage, stationery and the website [G01]. | Unsupported keywords, places, hours or taglines added to the name. Preserve evidenced real-world name components. |
 | Primary category | The most specific category for what the business is [G01, G07]. | Copying a competitor's category or using categories as keywords. |
-| Other categories | Genuine additional business types only [G01]. | A category for every service, product or amenity. |
+| Other categories | Use as few categories as possible to describe the core business; genuine additional business types only [G01]. | A category for every service, product or amenity. |
 | Address or pin | Real location and the correct public or hidden treatment for the model [G01]. | A PO box, virtual office or exposed private address. |
 | Hours | Customer-facing hours, time zone, public holidays and special hours as the business confirms them. | Invented 24-hour or emergency availability. |
 | Phone | Reaches this location, is under the business's direct control, local where possible and not a premium number [G01]. Test only with authorisation. | Assuming a tracking number is compliant or routes correctly. |
@@ -63,4 +63,7 @@ A tracking number still has to meet the phone rules in G01. A vendor feature or 
 - every place the number appears: profile, website, `tel:` links, ads, citations and structured data
 - how calls are counted, and that call-button clicks, provider-recorded calls, answered calls and qualified enquiries stay separate
 
-**Google guidance [G10]:** the GBP Calls metric counts clicks on the call button, not answered calls. Keeping or restoring the business's own verified number is a valid outcome when control or routing cannot be shown.
+**Google guidance [G10]:** the GBP Calls metric counts clicks on the call button, not answered calls.
+
+**Operating method:** retain the working contact where there is no evidenced defect. If control or routing is unknown, verify it before declaring the number misrouted. Recommend a controlled restoration to a business-confirmed number only with appropriate authority and a before-state, routing/dependency check, acceptance test and recovery route. The audit itself makes no call or edit. Google does not prescribe a universal tracking-primary/permanent-secondary arrangement [G01, G06].
+

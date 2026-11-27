@@ -38,3 +38,4 @@ Confirmed by the owner, Jo Tran, on 3 November 2026.
 - No website release in the period.
 - The owner says May to July is usually the busiest period for hot water work.
 - No citation or review-reply evidence was supplied.
+

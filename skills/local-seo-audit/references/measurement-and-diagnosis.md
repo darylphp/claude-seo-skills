@@ -22,7 +22,7 @@ Do not add numbers from overlapping systems as if they counted separate people.
 
 **Google guidance [G17]:** campaign parameters identify source, medium and campaign, and their values are case-sensitive.
 
-**Operating method:** a starting pattern is `utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=[location-id]`, adjusted to the business's existing naming. Use lower case and no personal data. Tag only the profile's links to the website, not internal navigation. Mark tracking as verified only after a live test shows the tagged visit and the enquiry event arriving.
+**Operating method:** a starting pattern is `utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=[location-id]`, adjusted to the business's existing naming. Use lower case and no personal data. Tag only the profile's links to the website, not internal navigation. Verify the tagged acquisition visit and the enquiry event separately. A working campaign tag does not prove a form was delivered, received or qualified. Check event trigger/counting, duplicates and test traffic, consent, reporting scope and business records where relevant. Mark each unavailable test Not verified; the audit does not submit a form or place a call without specific authority.
 
 ## 3. Diagnosing a visibility or enquiry problem
 
@@ -37,3 +37,4 @@ Do not add numbers from overlapping systems as if they counted separate people.
 7. **Set checks.** Record an acceptance check and a review trigger. Do not promise recovery within a fixed time.
 
 Keep repeated rank or grid samples consistent: same queries, points, tool, device, language and timing where possible. Record failed or missing samples. A grid is a sample, not proof of cause or a universal ranking radius.
+
